@@ -19,7 +19,7 @@ pipeline {
   stages {
     stage('Test') {
       steps {
-        helloWorldSimple('issam','lundi')
+        helloWorldSimple()
         sh '''
           git --version
           curl --version
