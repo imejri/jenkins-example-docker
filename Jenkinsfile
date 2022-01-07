@@ -8,7 +8,7 @@ library identifier: 'github-api-global-lib@main',
 ])
 
 pipeline {
-  agent { dockerfile true }
+  agent { label "centos" }
   options {
       durabilityHint('PERFORMANCE_OPTIMIZED')
       }
