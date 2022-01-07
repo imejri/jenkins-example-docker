@@ -14,9 +14,9 @@ pipeline {
       durabilityHint('PERFORMANCE_OPTIMIZED')
       }
     
-    environment {
-        BUILD_FOLDER = '/infra/build/'
-    }
+  //  environment {
+        //BUILD_FOLDER = '/infra/build/'
+   // }
   stages {
     stage('Test') {
       steps {
