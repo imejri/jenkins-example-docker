@@ -15,7 +15,7 @@ pipeline {
   stages {
     stage('Test') {
       steps {
-        helloWorld("issam","monday")
+        helloWorld()
         sh '''
           git --version
           curl --version
