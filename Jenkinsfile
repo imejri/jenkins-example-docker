@@ -6,6 +6,7 @@ library identifier: 'github-api-global-lib@main',
       //credentialsId: 'your-credentials-id', // remove this if it's public!
       remote: 'https://github.com/imejri/github-api-global-lib.git'
 ])
+def BUILD_FOLDER='infra/build/'
 
 pipeline {
   agent { label "centos" }
