@@ -13,6 +13,10 @@ pipeline {
   options {
       durabilityHint('PERFORMANCE_OPTIMIZED')
       }
+    
+    environment {
+        BUILD_FOLDER = '/infra/build/'
+    }
   stages {
     stage('Test') {
       steps {
